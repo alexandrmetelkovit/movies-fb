@@ -7,6 +7,7 @@ import {
   doc,
   deleteDoc,
   serverTimestamp,
+	query
 } from "firebase/firestore";
 
 // Your web app's Firebase configuration
