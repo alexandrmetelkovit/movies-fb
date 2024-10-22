@@ -1,5 +1,5 @@
-/node_modules
-.parcel-cache
-dist
-package-lock.json
-package.json
+# Игнорируем папки и файлы
+.parcel-cache/
+dist/
+node_modules/
+.DS_Store
