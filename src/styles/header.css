@@ -1,0 +1,14 @@
+.header {
+  margin: 30px 0 20px 0;
+}
+
+.text-add-wrapper {
+	width: 250px;
+}
+
+.text-add__movies {
+  font-size: 25px;
+  line-height: 1.5;
+  color: beige;
+  border-bottom: 1px solid black;
+}

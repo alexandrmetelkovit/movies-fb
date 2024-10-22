@@ -1,0 +1,9 @@
+.errorTitle {
+  visibility: hidden;
+}
+
+.errorTitle_red {
+  visibility: visible;
+  font-size: 20px;
+  color: rgb(215, 144, 144);
+}

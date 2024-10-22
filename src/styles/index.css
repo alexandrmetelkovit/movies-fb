@@ -1,0 +1,14 @@
+@import url("header.css");
+@import url("searchMovies.css");
+@import url("addedMovie.css");
+@import url("movieItem.css");
+@import url("errorInput.css");
+
+body {
+  background-color: rgb(99, 153, 206);
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}

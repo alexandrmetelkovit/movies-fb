@@ -1,0 +1,62 @@
+.added-movies__inner {
+  background-color: rgb(37, 92, 127);
+  width: 100%;
+  border-radius: 20px;
+  min-height: 500px;
+}
+
+.search__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding: 30px 0 25px 20px;
+}
+
+.input__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 40%;
+}
+
+input {
+  border: none;
+}
+input:focus-visible {
+  outline: none;
+}
+
+.input-title__movies {
+  background-color: rgb(37, 92, 127);
+  border-bottom: 1px solid black;
+  color: #afa8a8;
+  min-width: 250px;
+  font-size: 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-left: 10px;
+}
+
+.input-title__movies:focus {
+  border-bottom: 1px solid rgb(44, 195, 201);
+}
+
+.added-btn {
+  display: block;
+  background-image: url("../resources/image/icons8-поиск.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+
+  transition: all 0.5s ease-out;
+}
