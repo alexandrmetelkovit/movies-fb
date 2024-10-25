@@ -10,6 +10,7 @@ import {
   query,
   orderBy,
 } from "firebase/firestore";
+import { v4 as uuidv4 } from "uuid";
 
 const inputTitleNode = document.getElementById("inputTitle");
 const addMovieInListNode = document.getElementById("addMovieInList");
@@ -52,6 +53,7 @@ async function addDocFunction(title) {
       title,
       done: false,
       createdAt: serverTimestamp(),
+      id: uuidv4(), // Генерация уникального ID для каждого фильма
     });
 
     localStorage.setItem("movies", JSON.stringify(movies)); // Обновляем localStorage
